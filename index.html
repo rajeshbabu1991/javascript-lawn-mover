@@ -1,0 +1,28 @@
+<html>
+<body>
+  <h3>Lamn mover</h3>
+  <h4>Enter Input For the Maximum Coordinates</h4>
+  <div>
+    <input type="number" id="xmax" placeholder="Enter the maximum x" />
+    <input type="number" id="ymax" placeholder="Enter the maximum y" />
+  </div>
+  <h4>Enter Input For the Initial Input Co-ordinates and direction in terms of N W E S</h4>
+  <div>
+    <input type="number" id="xinit" placeholder="Enter the initial x" />
+    <input type="number" id="yinit" placeholder="Enter the initial y" />
+    <input type="text" id="directionInit" placeholder="Initial orientation" />
+  </div>
+  <h4>Enter Input For movement command Eg: L/F/R</h4>
+  <div>
+    <input type="text" id="movementCommand" placeholder="Movement command string" />
+  </div>
+  <br>
+  <h4>Output and final position of the mower in terms of coordinates and direction</h4>
+  <button id="clickMe" onClick="moveMower()"> Move The Mower</button>
+  <br>
+  <br>
+  <div id="output"></div>
+  <!--script for the file-->
+  <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
